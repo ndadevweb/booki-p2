@@ -5,3 +5,92 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --font-family: 'Raleway', sans-serif;
+    --background-website: #FFF;
+    --color-primary: #0065FC;
+}
+
+
+/* General */
+
+html {
+    font-family: var(--font-family);
+}
+
+body {
+    background: var(--background-website);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* Utils */
+
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.header-logo {
+    display: block;
+    margin: 45px 0 0 0;
+    height: 45px;
+}
+
+.header-heading {
+    order: 3;
+    flex-basis: 100%;
+    margin: 38px 0 0 0;
+}
+
+.header-heading h1 {
+    font-size: 22px;
+    margin: 0;
+}
+
+.header-heading p {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 9px 0 0 0;
+}
+
+
+/* Navigation */
+
+.navigation ul {
+    display: flex;
+}
+
+.navigation a {
+    display: block;
+    width: 165px;
+    min-height: 80px;
+    padding-top: 28%;
+    border-top: 3px solid transparent;
+    color: #000;
+    font-weight: 500;
+    text-align: center;
+    transition: .25s;
+}
+
+.navigation .navigation-active,
+.navigation a:hover {
+    border-top: 3px solid var(--color-primary);
+    color: var(--color-primary);
+}
