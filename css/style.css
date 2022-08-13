@@ -486,3 +486,38 @@ ul {
 .card-small-2 {
     height: 195px;
 }
+
+
+/* Footer */
+
+.footer {
+    min-height: 218px;
+    margin-top: 60px;
+    padding-top: 45px;
+    background: var(--color-tertiary);
+}
+
+.footer-complementary {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-complementary-item {
+    width: calc(100% / 3);
+}
+
+.footer-complementary-item li {
+    margin-bottom: 15px;
+}
+
+.footer-complementary-item a {
+    color: var(--color-text-two);
+    font-size: 15px;
+    font-weight: 400;;
+}
+
+.footer-complementary-item h4 {
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 700;;
+}
