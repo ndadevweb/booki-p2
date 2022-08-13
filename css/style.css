@@ -212,7 +212,7 @@ ul {
 /* Search */
 
 .search {
-    --size-search-elements: 40px;
+    --size-search-elements: 50px;
     display: flex;
     flex-direction: column;
     margin-top: 20px;
@@ -221,6 +221,7 @@ ul {
 .search-form {
     display: flex;
     flex-direction: row;
+    margin-left: 10px;
 }
 
 .search-form label,
@@ -235,13 +236,13 @@ ul {
     flex: 0 0 auto;
     background: var(--color-tertiary);
     border-radius: var(--border-round-full-left);
+    font-size: 18px;
 }
 
 .search-form input[type="search"] {
     padding: 1%;
-    width: 200px;
-    font-size: 14px;
-    font-weight: 600;
+    width: 235px;
+    font: 700 18px var(--font-family);
     border: 2px solid var(--color-tertiary);
     border-left: 2px solid transparent;
     border-right: none;
@@ -255,11 +256,12 @@ ul {
 
 .search-form button {
     padding: 0 1%;
+    width: 135px;
     background: var(--color-primary);
     color: var(--color-text-one);
-    font-weight: 600;
+    font: 600 18px var(--font-family);
     border: 2px solid transparent;
-    border-radius: var(--border-round-full-right);
+    border-radius: 0 16px 16px 0;
 }
 
 .search-form button:focus {
@@ -277,23 +279,24 @@ ul {
     flex-direction: row;
     align-items: center;
     margin-top: 30px;
+    margin-left: 30px;
 }
 
 .search-filters h2 {
-    margin-right: 30px;
-    font-size: 16px;
+    margin-right: 35px;
+    font-size: 18px;
     font-weight: 700;
 }
 
 .search-filters-items {
     display: flex;
-    column-gap: 20px;
+    column-gap: 25px;
 }
 
 .search-filters-item {
     display: flex;
     align-items: center;
-    padding: 0 15px 0 0;
+    padding: 0 20px 0 0;
     height: var(--size-search-elements);
     background: var(--color-text-one);
     border: 3px solid var(--color-tertiary);
@@ -312,11 +315,11 @@ ul {
 
 .search-filters-item-icon i {
     color: var(--color-primary);
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .search-filters-item-text {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 600;
 }
 
@@ -327,20 +330,19 @@ ul {
     position: relative;
     margin-right: 10px;
     padding: 10px;
-    width: 22px;
-    height: 22px;
-    border: 3px solid var(--color-tertiary);
+    width: 24px;
+    height: 24px;
+    border: 1px solid var(--color-tertiary);
     border-radius: 50%;
-    font-size: 12px;
+    font-size: 14px;
     color: var(--color-primary);
 }
 
 .search-information-message {
     display: flex;
     align-items: center;
-    margin-top: 30px;
-    font-size: 14px;
-    font-weight: 400;
+    margin: 35px 0 0 20px;
+    font: 500 16px var(--font-family);
 }
 
 
