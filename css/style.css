@@ -22,6 +22,9 @@
     --border-radius-medium: 16px;
 }
 
+::placeholder {
+    opacity: 1;
+}
 
 /* General */
 
@@ -62,6 +65,11 @@ ul {
     transform: translate(-50%, -50%);
 }
 
+.heading-section {
+    font-size: 22px;
+    margin-bottom: 24px;
+}
+
 .mb-20 {
     margin-bottom: 20px;
 }
@@ -74,7 +82,7 @@ ul {
     padding: 5px;
     background: var(--color-text-one);
     border-radius: var(--border-radius-medium);
-    min-height: 185px;
+    min-height: 195px;
 }
 
 .card-without-padding {
@@ -96,19 +104,20 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 3% 3% 0 3%;
-    height: 70px;
+    padding: 4% 3% 1.5% 3%;
+    height: 75px;
 }
 
 .card-heading {
     color: var(--color-text-two);
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: 700;;
 }
 
 .card-price {
-    margin: 3% 0;
+    line-height: 1.90;
     color: var(--color-text-two);
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .card-stars {
@@ -125,7 +134,7 @@ ul {
     display: flex;
     flex-flow: row nowrap;
     justify-content: start;
-    min-height: 135px;
+    min-height: 145px;
 }
 
 .card-column .card-img {
@@ -133,7 +142,7 @@ ul {
     width: 115px;
     max-width: 115px;
     min-width: 115px;
-    height: 130px;
+    height: 140px;
     border-radius: var(--border-radius-full-left);
 }
 
@@ -351,21 +360,23 @@ ul {
 .lodgments {
     display: flex;
     column-gap: 40px;
-    margin-top: 30px;
+    margin-top: 40px;
+    padding: 0 30px;
 }
 
 .lodgments-city,
 .lodgments-popular {
-    padding: 30px;
+    padding: 40px;
     background: var(--color-tertiary);
     border-radius: var(--border-radius-medium);
+    min-height: 625px;
 }
 
 .lodgments-city {
-    --gap: 25px;
-    flex: 5 1 70%;
+    --gap: 30px;
     display: flex;
     flex-direction: column;
+    flex: 0 1 880px;
 }
 
 .lodgments-city-cards {
@@ -379,15 +390,16 @@ ul {
 }
 
 .show-more {
-    margin-top: 4%;
+    margin: auto 0 5px 0;
+    font-size: 18px;
     font-weight: 700;
     color: var(--color-text-two);
 }
 
 
 .lodgments-popular {
-    --gap: 25px;
-    flex: 1 0 25%;
+    --gap: 30px;
+    flex: 0 1 420px;
     padding-bottom: 5px;
 }
 
