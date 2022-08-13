@@ -26,7 +26,6 @@
 /* General */
 
 body {
-    background: var(--background-website);
     font-family: var(--font-family);
 }
 
@@ -41,9 +40,14 @@ ul {
 
 /* Utils */
 
+.hide {
+    visibility: hidden;
+}
+
 .container {
     margin: 0 auto;
     padding: 0 20px;
+    position: relative;
     max-width: 1400px;
 }
 
@@ -73,6 +77,14 @@ ul {
     min-height: 185px;
 }
 
+.card-without-padding {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 0;
+    background: var(--color-text-one);
+    border-radius: var(--border-radius-medium);
+}
+
 .card-img {
     object-fit: cover;
     width: 100%;
@@ -86,15 +98,16 @@ ul {
     justify-content: space-around;
     padding: 3% 3% 0 3%;
     height: 70px;
-    color: var(--color-text-two);
 }
 
 .card-heading {
+    color: var(--color-text-two);
     font-size: 14px;
 }
 
 .card-price {
     margin: 3% 0;
+    color: var(--color-text-two);
     font-size: 12px;
 }
 
@@ -142,23 +155,24 @@ ul {
 
 .header-logo {
     display: block;
-    margin: 45px 0 0 0;
+    margin: 43px 0 0 30px;
     height: 45px;
 }
 
 .header-heading {
     order: 3;
     flex-basis: 100%;
-    margin: 38px 0 0 0;
+    margin: 38px 0 0 15px;
 }
 
 .header-heading h1 {
     font-size: 22px;
+    font-weight: 600;
     margin: 0;
 }
 
 .header-heading p {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     margin: 9px 0 0 0;
 }
@@ -166,15 +180,21 @@ ul {
 
 /* Navigation */
 
+.navigation {
+    position: absolute;
+    right: 20px;
+    width: 315px;
+}
+
 .navigation ul {
     display: flex;
+    justify-content: space-around;
 }
 
 .navigation a {
     display: block;
-    width: 165px;
+    padding: 45px 25px 0 25px;
     min-height: 80px;
-    padding-top: 28%;
     border-top: 3px solid transparent;
     color: #000;
     font-weight: 500;
@@ -382,3 +402,4 @@ ul {
     display: flex;
     justify-content: space-between;
 }
+
