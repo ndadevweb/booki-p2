@@ -236,12 +236,12 @@ ul {
 .search-form {
     display: flex;
     flex-direction: row;
-    margin-left: 10px;
+    margin: 0 10px;
 }
 
 .search-form label,
 .search-form input,
-.search-form button {
+.search-form input[type="search"] {
     height: var(--size-search-elements);
 }
 

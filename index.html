@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Styles -->
+    <!-- Styles Desktop / Tablette / Mobile -->
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/tablette.css" media="screen and (max-width: 992px)" />
+    <link rel="stylesheet" href="./css/mobile.css" media="screen and (max-width: 768px)" />
 
     <!-- Typographie -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -40,7 +41,10 @@
         <form class="search-form">
             <label for="search-field" class="cursor-pointer"><i class="fa-solid fa-location-dot full-center"></i></label>
             <input type="search" name="search" id="search-field" placeholder="Marseille, France" />
-            <button type="submit" class="cursor-pointer">Rechercher</button>
+            <button type="submit" class="cursor-pointer">
+                <i class="fas fa-search"></i>
+                <span>Rechercher</span>
+            </button>
         </form>
 
         <div class="search-filters">

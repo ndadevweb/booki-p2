@@ -1,0 +1,88 @@
+/* Utils */
+
+.container {
+    padding: 0;
+}
+
+
+/* Header */
+
+.header {
+    flex-direction: column;
+}
+
+.header a {
+    align-self: center;
+    padding: 0;
+    min-height: 40px;
+}
+
+.header-logo {
+    margin: 30px 0;
+}
+
+
+/* Navigation */
+
+.navigation {
+    position: relative;
+    right: 0;
+    width: auto;
+}
+
+.navigation li {
+    width: 50%;
+}
+
+.navigation a,
+.navigation a:hover,
+.navigation .navigation-active {
+    border-top: none;
+    border-bottom: 3px solid var(--color-tertiary);
+}
+
+.navigation a:hover,
+.navigation .navigation-active {
+    border-bottom: 3px solid var(--color-primary);
+}
+
+
+/* Search */
+
+.search-form input[type="search"] {
+    width: 100%;
+    padding: 1% 5%;
+}
+
+.search-form button {
+    width: var(--size-search-elements);
+    border-radius: var(--border-radius-medium);
+    flex: 0 0 auto;
+    margin-left: -15px;
+}
+
+.search-form button span {
+    display: none;
+}
+
+
+/* Filters */
+
+.search-filters {
+    margin: 30px 10px 0;
+}
+
+.search-information-message {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Lodgments */
+
+/* Lodgments city */
+
+/* Lodgments popular */
+
+/* Activities */
+
+/* Footer */
