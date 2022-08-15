@@ -1,0 +1,71 @@
+.container {
+    padding: 0 15px;
+}
+
+
+/* Cards small screens / mobile */
+
+.card-mobile {
+    height: 200px;
+}
+
+/* Lodgments */
+
+.lodgments {
+    flex-direction: column;
+}
+
+.lodgments-city,
+.lodgments-popular {
+    padding: 30px 20px 10px 20px;
+    flex: auto;
+    min-height: auto;
+}
+
+.lodgments-popular {
+    --gap: 20px;
+    order: 1;
+}
+
+.lodgments-popular-cards {
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: var(--gap);
+}
+
+.lodgments-popular-card {
+    flex: 0 0 calc( (100% / 3) - var(--gap));
+}
+
+.lodgments-city {
+    order: 2;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.lodgments-city-cards {
+    margin-bottom: 30px;
+}
+
+.lodgments-city-card {
+    flex: 0 1 calc(50% - 15px);
+}
+
+
+/* Activities */
+
+.activities-cards {
+    height: 665px;
+}
+
+.activities-cards figure {
+    width: calc(50% - 15px);
+}
+
+.card-full,
+.card-medium-1,
+.card-medium-2,
+.card-small-1,
+.card-small-2 {
+    height: 200px;
+}

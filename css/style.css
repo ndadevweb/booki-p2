@@ -448,7 +448,6 @@ ul {
     flex-flow: column wrap;
     justify-content: space-between;
     align-content: space-between;
-    flex: 1 1;
     padding: 0 10px;
     height: 445px;
 }
