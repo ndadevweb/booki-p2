@@ -81,6 +81,11 @@
     margin-right: 10px;
 }
 
+.search-information-message .information-icon {
+    align-self: start;
+    margin-top: -4px;
+}
+
 /* Lodgments */
 
 /* Lodgments city */
