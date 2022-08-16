@@ -86,7 +86,17 @@
     margin-top: -4px;
 }
 
-/* Lodgments */
+
+/* Cards */
+
+.card-row .card-details {
+    margin-left: 0;
+    padding: 3% 0 0 3%;
+}
+
+.card-column .card-details {
+    padding: 3% 0 0 3%;
+}
 
 /* Lodgments city */
 
@@ -110,13 +120,17 @@
 
 /* Activities */
 
+.activities .heading-section {
+    margin-left: 20px;
+}
+
 .activities-cards {
     height: auto;
     padding: 0 20px;
     row-gap: 35px;
 }
 
-.activities-cards figure {
+.activities-cards article {
     width: 100%;
 }
 

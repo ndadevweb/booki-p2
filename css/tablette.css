@@ -2,11 +2,11 @@
     padding: 0 15px;
 }
 
-
 /* Cards small screens / mobile */
 
-.card-mobile {
-    height: 200px;
+.card-price {
+    margin: 5px 0;
+    line-height: 1.30;
 }
 
 /* Lodgments */
@@ -58,7 +58,7 @@
     height: 665px;
 }
 
-.activities-cards figure {
+.activities-cards article {
     width: calc(50% - 15px);
 }
 

@@ -464,7 +464,7 @@ ul {
     flex: 1 1 auto;
 }
 
-.activities-cards figure {
+.activities-cards article {
     display: flex;
     width: calc(25% - 35px);
     background: #FFF;
