@@ -282,6 +282,10 @@ ul {
     transition: .25s;
 }
 
+.search-form button .fa-search {
+    display: none;
+}
+
 
 /* Filters */
 
