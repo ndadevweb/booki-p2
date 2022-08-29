@@ -30,7 +30,7 @@ Booki est une petite entreprise proposant un outil de planification de vacances 
 
 # Conventions
 
-- Indendatation de 4 espaces
+- Indentation de 4 espaces
 
 ---
 
