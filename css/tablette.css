@@ -12,7 +12,7 @@
 /* Lodgments */
 
 .lodgments {
-    flex-direction: column;
+    flex-direction: column-reverse;
 }
 
 .lodgments-city,
@@ -24,7 +24,6 @@
 
 .lodgments-popular {
     --gap: 20px;
-    order: 1;
 }
 
 .lodgments-popular-cards {
@@ -38,7 +37,6 @@
 }
 
 .lodgments-city {
-    order: 2;
     margin-top: 20px;
     padding-bottom: 20px;
 }
