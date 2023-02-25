@@ -7,7 +7,8 @@ Booki est une petite entreprise proposant un outil de planification de vacances 
 ---
 
 ## Voir le projet en ligne
-[Hébergement personnel](https://p2-booki.ndadevweb.com/)
+Hébergement personnel
+[https://p2-booki.ndadevweb.com/](https://p2-booki.ndadevweb.com/)
 
 Ancienne URL (Github page)
 [https://ndadevweb.github.io/booki-p2/](https://ndadevweb.github.io/booki-p2/)
